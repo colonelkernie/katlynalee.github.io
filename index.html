@@ -10,8 +10,15 @@
 
 		
 		h1 {
-			font-family:  "Sonder";
+			font-family:  'Sonder';
 		}
+    .sonder-woff2{
+      font-family:  'Sonder-new';
+    }
+    .sonder-woff{
+      font-family:  'Sonder-2';
+    }
+    
 		
 		@font-face {
   font-family: 'Sonder-new';
@@ -34,48 +41,7 @@
   font-style: normal;
   font-display: auto;
 }
-@font-face {
-  font-family: 'Archia webfont';
-  src: url('https://assets.website-files.com/62a313bad83617290cf77ce4/62a313bad836178e32f77d20_archia-light-webfont.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Archia webfont';
-  src: url('https://assets.website-files.com/62a313bad83617290cf77ce4/62a313bad83617b34bf77d21_archia-medium-webfont.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Archia webfont';
-  src: url('https://assets.website-files.com/62a313bad83617290cf77ce4/62a313bad836175e37f77d13_archia-bold-webfont.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Archia webfont';
-  src: url('https://assets.website-files.com/62a313bad83617290cf77ce4/62a313bad836170f9df77d24_archia-thin-webfont.ttf') format('truetype');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Archia webfont';
-  src: url('https://assets.website-files.com/62a313bad83617290cf77ce4/62a313bad8361777ddf77d22_archia-regular-webfont.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Archia webfont';
-  src: url('https://assets.website-files.com/62a313bad83617290cf77ce4/62a313bad8361770d8f77d23_archia-semibold-webfont.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
+
 @font-face {
   font-family: 'Sonder';
   src: url('https://assets.website-files.com/62a313bad83617290cf77ce4/62a313bad836173370f77d25_SonderRegular.otf') format('opentype');
@@ -93,7 +59,9 @@
 	</style>
 </head>
 <body>
-	<h1>Test des accents : à è é ê ë ù oe </h1>
+	<h1 class="sonder">Test des accents : à è é ê ë ù oe </h1>
+  <h1 class="sonder-woff2">Test des accents with Sonder woff2: à è é ê ë ù oe </h1>
+   <h1 class="sonder-woff">Test des accents with Sonder woff: à è é ê ë ù oe </h1>
 
 </body>
 </html>
